@@ -260,7 +260,7 @@ h3 {
 }
 
 a {
-    color: #d52349;
+    color: #e0cc19;
     text-decoration: underline;
 }
 
@@ -1493,7 +1493,7 @@ button,
     cursor: pointer;
     border: 0;
     border-radius: 5px;
-    background: #d52349;
+    background: #e0cc19;
     color: #fff !important;
     font-weight: 700;
     outline: 0;
@@ -1713,7 +1713,7 @@ ul.dates .date {
     position: absolute;
     left: 0;
     top: 1.3em;
-    background-color: #d52349;
+    background-color: #e0cc19;
     height: 3.5em;
     text-align: center;
     color: #fff;
@@ -1728,7 +1728,7 @@ ul.dates .date:after {
     position: absolute;
     bottom: 0;
     right: -1.2em;
-    border-left: solid 1.25em #d52349;
+    border-left: solid 1.25em #e0cc19;
     border-top: solid 1.8em transparent;
     border-bottom: solid 1.8em transparent;
 }
@@ -1801,7 +1801,6 @@ ul.social li a {
     height: 3em;
     text-align: center;
     border-radius: 5px;
-    background: #888;
     -moz-transition: background-color .25s ease-in-out;
     -webkit-transition: background-color .25s ease-in-out;
     -ms-transition: background-color .25s ease-in-out;
@@ -1830,11 +1829,11 @@ ul.social li a.fa-twitter:hover {
     background: #3dbaf4;
 }
 
-ul.social li a.fa-dribbble {
+ul.social li a.fa-instagram {
     background: #c4376b;
 }
 
-ul.social li a.fa-dribbble:hover {
+ul.social li a.fa-instagram:hover {
     background: #d4477b;
 }
 
@@ -1903,7 +1902,7 @@ ul.social li a.fa-google-plus:hover {
 .icon.featured {
     position: relative;
     display: inline-block;
-    background-color: #d52349;
+    background-color: #827a7c;
     width: 9em;
     padding: 1.75em 0 0.75em 0;
     border-top-left-radius: 5px;
@@ -1923,17 +1922,17 @@ ul.social li a.fa-google-plus:hover {
     position: absolute;
     bottom: -1.95em;
     left: 0;
-    border-top: solid 2em #d52349;
+    border-top: solid 2em #827a7c;
     border-left: solid 4.5em transparent;
     border-right: solid 4.5em transparent;
 }
 
 .icon.featured.alt {
-    background-color: #252122;
+    background-color: #e0cc19;
 }
 
 .icon.featured.alt:after {
-    border-top-color: #252122;
+    border-top-color: #e0cc19;
 }
 
 .icon.featured.alt2 {
@@ -1983,7 +1982,6 @@ ul.social li a.fa-google-plus:hover {
 
 #nav>ul>li {
     display: inline-block;
-    font-style: italic;
     margin: 0 0.35em 0 0.35em;
 }
 
@@ -2009,7 +2007,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #nav>ul>li.current>a {
-    background: #d52349;
+    background: #e0cc19;
     color: #fff !important;
     font-weight: 700;
 }
@@ -2093,7 +2091,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #banner header p {
-    color: #d52349;
+    color: #e0cc19;
     padding: 0;
     font-style: normal;
     margin: 0;
