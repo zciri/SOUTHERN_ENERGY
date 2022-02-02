@@ -1431,6 +1431,7 @@ header.major {
 }
 
 header.major h2 {
+    font-size: 2em;
     background: #fff;
     position: relative;
     top: -0.65em;
@@ -1511,7 +1512,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-    background: #e53359;
+    background: #c7b518;
 }
 
 input[type="button"]:active,
@@ -1957,7 +1958,7 @@ ul.social li a.fa-google-plus:hover {
     position: relative;
     background: #ffffff;
     border-bottom: solid 1px #ccc;
-    padding: 5em 0 4em 0;
+    padding: 3.5em 0 3em 0;
     text-align: center;
 }
 
@@ -1966,7 +1967,7 @@ ul.social li a.fa-google-plus:hover {
     font-weight: 900;
     font-size: 4.5em;
     letter-spacing: -0.035em;
-    line-height: 1;
+    line-height: .5;
 }
 
 
@@ -2073,7 +2074,7 @@ ul.social li a.fa-google-plus:hover {
     text-align: center;
     position: relative;
     padding: 8em 0;
-    margin: 4em 0 0 0;
+    margin: 2em 0 0 0;
 }
 
 #banner header {
@@ -2112,7 +2113,7 @@ ul.social li a.fa-google-plus:hover {
 }
 
 #intro h2 {
-    font-size: 1.75em;
+    font-size: 2em;
 }
 
 #intro p {
