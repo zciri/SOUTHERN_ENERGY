@@ -2067,14 +2067,14 @@ ul.social li a.fa-google-plus:hover {
 /* Banner */
 
 #banner {
-    background: #CCE8F4 url("../../images/pic01.jpg");
+    background: url("../../images/pic01.jpg");
     background-position: center center;
-    background-size: auto 100%;
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
     padding: 8em 0;
     margin: 2em 0 0 0;
+    max-width: 100%;
 }
 
 #banner header {
