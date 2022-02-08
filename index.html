@@ -125,7 +125,13 @@
                             <div class="actions">
                                 <div class="col-6 col-12-small">
                                     <section class="box" style="width:100%;">
-                                        <a href="quote.html" class="image featured"><img src="images/pic08.jpg" alt="" style="width:100%; height: 60vh" /></a>
+                                        <a href="quote.html" class="image featured">
+                                            <div class="w3-content w3-section">
+                                                <img class="mySlides" src="images/pic08.jpg" style="width:100%; height: 60vh">
+                                                <img class="mySlides" src="images/pic12.jpg" style="width:100%; height: 60vh">
+                                                <img class="mySlides" src="images/pic11.jpg" style="width:100%; height: 60vh">
+                                              </div>
+                                              </a>
                                         <header style="text-align: center; font-size: 3vh;">
                                             <h3>"How do I get a quote?"</h3>
 
@@ -281,6 +287,22 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
 
 </body>
 
